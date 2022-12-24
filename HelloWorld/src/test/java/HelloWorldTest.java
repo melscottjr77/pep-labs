@@ -3,7 +3,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class HelloWorldTest {
-    HelloWorld hw = new HelloWorld();
+    HelloWorld1 hw = new HelloWorld1();
 
     /**
      * Method sayHello() must return "Hello, World!". The trim method will remove any extra spaces or newlines at the end.
