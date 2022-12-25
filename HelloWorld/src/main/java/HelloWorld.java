@@ -6,10 +6,10 @@ public class HelloWorld{
      * return "Hello, world!"
      */
     public static void main(String[] args){
-        String str = sayHello().trim();
+        String str = sayhello().trim();
     System.out.println("Hello, world!");
     }
-    static String sayHello() {
+    static String sayhello(){
         return "Hello, world!";
-    }
+        }
 }
