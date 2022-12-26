@@ -41,8 +41,8 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is less than b, false otherwise.
      */
-    int a = 1;
-    int b = 2;
+    int a = 2;
+    int b = 1;
     if (a < b){
     System.out.println("false");
     }
@@ -54,8 +54,13 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is greater than or equal to b, false otherwise.
      */
-    public boolean greaterThanOrEqualTo(int a, int b){
-        return false;
+    int a = 1;
+    int b = 2;
+    if (a >= b){
+    System.out.println("false");
+    }
+    boolean greaterThanOrEqualTo; int a; int b; {
+        return;
     }
     /**
      * @param a the first number to be compared.
