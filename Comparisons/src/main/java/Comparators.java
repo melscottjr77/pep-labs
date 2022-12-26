@@ -11,20 +11,30 @@ public class Comparators {
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
+     * @return 
      * @return true if a is equal to b, false otherwise.
      */
 public static void main(String[] args){
-    public boolean isEqual(int a, int b){
-        return false;
+    int a = 1;
+    int b = 1;
+    if (a == b){
+    System.out.println("true");
     }
-
+    boolean isEqual; int a; int b; {
+        return;
+    }
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
      * @return true if a is greater than b, false otherwise.
      */
-    public boolean greaterThan(int a, int b){
-        return false;
+    int a = 1;
+    int b = 2;
+    if (a > b){
+    System.out.println("false");
+    }
+    boolean greaterThan; int a; int b; {
+        return;
     }
     /**
      * @param a the first number to be compared.
@@ -60,4 +70,8 @@ public static void main(String[] args){
         return false;
     }
 }
+
+    public boolean isEqual(int a, int b) {
+        return false;
+    }
 }
