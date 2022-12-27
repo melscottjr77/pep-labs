@@ -31,7 +31,7 @@ public static void main(String[] args){
     int a = 1;
     int b = 2;
     if (a > b){
-    System.out.println("false");
+    System.out.println("true");
     }
     boolean greaterThan; int a; int b; {
         return;
@@ -57,7 +57,7 @@ public static void main(String[] args){
     int a = 1;
     int b = 2;
     if (a >= b){
-    System.out.println("false");
+    System.out.println("true");
     }
     boolean greaterThanOrEqualTo; int a; int b; {
         return;
@@ -67,8 +67,13 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is less than or equal to b, false otherwise.
      */
-    public boolean lessThanOrEqualTo(int a, int b){
-        return false;
+    int a = 1;
+    int b = 2;
+    if (a <= b){
+    System.out.println("true");
+    }
+    boolean lessThanOrEqualTo; int a; int b;{
+        return;
     }
 
     /**
@@ -76,11 +81,20 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is not equal to b, false otherwise.
      */
-    public boolean notEqualTo(int a, int b){
-        return false;
+    int a = 1;
+    int b = 2;
+    if (a != b){
+    System.out.println("true");
+    }
+    boolean notEqualTo; int a; int b; {
+        return;
+    }
+    int a = 1;
+    int b = 2;
+    if (a >= b){
+    System.out.println("false");
     }
 }
-
     public boolean isEqual(int a, int b) {
         return false;
     }
