@@ -18,7 +18,9 @@ public static void main(String[] args){
     int a = 1;
     int b = 1;
     if (a == b){
-    System.out.println("true");
+        System.out.println("true");
+    }else{
+        System.out.println("false");
     }
     boolean isEqual; int a; int b; {
         return;
@@ -31,7 +33,9 @@ public static void main(String[] args){
     int a = 1;
     int b = 2;
     if (a > b){
-    System.out.println("true");
+        System.out.println("true");
+    }else{
+        System.out.println("false");
     }
     boolean greaterThan; int a; int b; {
         return;
@@ -44,7 +48,9 @@ public static void main(String[] args){
     int a = 2;
     int b = 1;
     if (a < b){
-    System.out.println("false");
+        System.out.println("true");
+    }else{
+        System.out.println("false");
     }
     boolean lessThan; int a; int b; {
         return;
@@ -58,6 +64,8 @@ public static void main(String[] args){
     int b = 2;
     if (a >= b){
     System.out.println("true");
+    }else{
+        System.out.println("false");
     }
     boolean greaterThanOrEqualTo; int a; int b; {
         return;
@@ -70,7 +78,9 @@ public static void main(String[] args){
     int a = 1;
     int b = 2;
     if (a <= b){
-    System.out.println("true");
+        System.out.println("true");
+    }else{
+        System.out.println("false");
     }
     boolean lessThanOrEqualTo; int a; int b;{
         return;
@@ -84,16 +94,14 @@ public static void main(String[] args){
     int a = 1;
     int b = 2;
     if (a != b){
-    System.out.println("true");
+        System.out.println("true");
+    }else{
+        System.out.println("false");
     }
     boolean notEqualTo; int a; int b; {
         return;
     }
-    int a = 1;
-    int b = 2;
-    if (a >= b){
-    System.out.println("false");
-    }
+
 }
     public boolean isEqual(int a, int b) {
         return false;
