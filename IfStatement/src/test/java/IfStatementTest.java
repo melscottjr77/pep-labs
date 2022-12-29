@@ -19,7 +19,7 @@ public class IfStatementTest {
         int x = 0;
         int y = 1;
         int expected = 0;
-        int actual = is.ifExample(bool, x, y);
+        int actual = is.ifExample1(bool, x, y);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -31,7 +31,7 @@ public class IfStatementTest {
         int x = 0;
         int y = 1;
         int expected = 1;
-        int actual = is.ifExample(bool, x, y);
+        int actual = is.ifExample2(bool, x, y);
         Assert.assertEquals(expected, actual);
     }
 }
