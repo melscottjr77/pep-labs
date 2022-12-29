@@ -37,7 +37,7 @@ public static void main(String[] args){
     }else{
         System.out.println("false");
     }
-    boolean greaterThan; int a; int b; {
+    boolean greaterThan; int a1; int b1; {
         return;
     }
     /**
@@ -104,6 +104,21 @@ public static void main(String[] args){
 
 }
     public boolean isEqual(int a, int b) {
+        return false;
+    }
+    public boolean greaterThanOrEqualTo(int a, int b) {
+        return false;
+    }
+    public boolean lessThanOrEqualTo(int a, int b) {
+        return false;
+    }
+    public boolean notEqualTo(int a, int b) {
+        return false;
+    }
+    public boolean lessThan(int a, int b) {
+        return false;
+    }
+    public boolean greaterThan(int a, int b) {
         return false;
     }
 }
