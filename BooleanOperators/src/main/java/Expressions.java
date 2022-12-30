@@ -31,10 +31,10 @@ public static void main(String[] args){
      * @return if b is true, return false. if b is false, return true.
      * look into boolean operations to do this without using if/else statements.
      */
+    
     public boolean returnNot(boolean b){
         return false;
     }
-
     /**
      * @param b1 a true/false value.
      * @param b2 a true/false value.
