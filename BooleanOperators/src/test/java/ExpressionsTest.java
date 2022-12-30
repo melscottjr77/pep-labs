@@ -16,7 +16,7 @@ public class ExpressionsTest {
     @Test
     public void returnBooleanTest1(){
         boolean input = true;
-        boolean actual = e.returnBoolean1(input);
+        boolean actual = e.returnBoolean(input);
         Assert.assertTrue(actual);
     }
 
@@ -26,7 +26,7 @@ public class ExpressionsTest {
     @Test
     public void returnBooleanTest2(){
         boolean input = false;
-        boolean actual = e.returnBoolean2(input);
+        boolean actual = e.returnBoolean(input);
         Assert.assertFalse(actual);
     }
 

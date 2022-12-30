@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner6;
-
-import kotlin.sequences.FlatteningSequence;
-
 /**
  * In order to make our programs even more impressive and interactive, we need to learn how to better leverage
  * boolean expressions. This will allow our programs to follow their own logic. For this example, you should look into
@@ -20,18 +16,14 @@ public class Expressions{
      */
 public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
-    String str = sc.next();
-    boolean b = true;
-    if(b){
+    Boolean b = sc.nextBoolean();
+    if(b == true){
         System.out.println(true);
     }else{
         System.out.println(false);
     }
 }
-    public boolean returnBoolean1(boolean b){
-        return true;
-    }
-    public boolean returnBoolean2(boolean b){
+    public boolean returnBoolean(boolean b){
         return false;
     }
     /**
