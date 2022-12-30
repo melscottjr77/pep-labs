@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * In order to make our programs even more impressive and interactive, we need to learn how to better leverage
@@ -8,11 +9,15 @@
  * 
  * NOTE: All of these problems can be solved with one line with boolean operators.
  */
-public class Expressions {
+public class Expressions{
     /**
      * @param b a true/false value.
      * @return if b is true, return true. if b is false, return false.
      */
+public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    boolean b = true;
+}
     public boolean returnBoolean(boolean b){
         return false;
     }
