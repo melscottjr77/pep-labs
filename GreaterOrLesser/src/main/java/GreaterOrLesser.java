@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class GreaterOrLesser {
     /**
@@ -9,6 +10,21 @@ public class GreaterOrLesser {
      * @return  If a is less than b, return the string "Lesser". if a is greater than b, return "Greater".
      *          If neither is true, return "Equal". This problem is case-sensitive!
      */
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int A = nextInt();
+        int B = nextInt();
+        if(A < B)
+        System.out.println("Lesser");
+        if(A > B)
+        System.out.println("Greater");
+        else{
+        System.out.println("Equal");
+        }
+    }
+    private static int nextInt() {
+        return 0;
+    }
     public String decide(int a, int b){
         return "Equal";
     }
