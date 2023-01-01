@@ -17,8 +17,8 @@ public class Subtract {
      */
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        double A = sc.nextInt();
-        double B = sc.nextInt();
+        double A = sc.nextDouble();
+        double B = sc.nextDouble();
         System.out.println(A - B);
     }
     public double subTest1(double A, double B){
