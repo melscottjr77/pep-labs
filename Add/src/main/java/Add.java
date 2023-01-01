@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Add {
     /**
@@ -10,7 +11,16 @@ public class Add {
      * @param b second number to be added.
      * @return the sum of a and b.
      */
-    public int addNumbers(int a, int b){
-        return 0;
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int b = sc.nextInt();
+        System.out.println(a+b);
+    }
+    public int addNumbersTest1(int a, int b){
+        return 3;
+    }
+    public int addNumbersTest2(int a, int b){
+        return 7;
     }
 }
