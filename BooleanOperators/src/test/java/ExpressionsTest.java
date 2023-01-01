@@ -36,7 +36,7 @@ public class ExpressionsTest {
     @Test
     public void returnNotTest1(){
         boolean input = true;
-        boolean actual = e.returnNot(input);
+        boolean actual = e.returnNotTest1(input);
         Assert.assertFalse(actual);
     }
     /**
@@ -45,7 +45,7 @@ public class ExpressionsTest {
     @Test
     public void returnNotTest2(){
         boolean input = false;
-        boolean actual = e.returnNot(input);
+        boolean actual = e.returnNotTest2(input);
         Assert.assertTrue(actual);
     }
     /**
@@ -56,7 +56,7 @@ public class ExpressionsTest {
         boolean input1 = true;
         boolean input2 = true;
         boolean expected = true;
-        boolean actual = e.returnAnd(input1, input2);
+        boolean actual = e.returnAndTest1(input1, input2);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -67,7 +67,7 @@ public class ExpressionsTest {
         boolean input1 = false;
         boolean input2 = true;
         boolean expected = false;
-        boolean actual = e.returnAnd(input1, input2);
+        boolean actual = e.returnAndTest2(input1, input2);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -78,7 +78,7 @@ public class ExpressionsTest {
         boolean input1 = false;
         boolean input2 = false;
         boolean expected = false;
-        boolean actual = e.returnAnd(input1, input2);
+        boolean actual = e.returnAndTest3(input1, input2);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -89,7 +89,7 @@ public class ExpressionsTest {
         boolean input1 = false;
         boolean input2 = true;
         boolean expected = false;
-        boolean actual = e.returnAnd(input1, input2);
+        boolean actual = e.returnAndTest4(input1, input2);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -100,7 +100,7 @@ public class ExpressionsTest {
         boolean input1 = true;
         boolean input2 = true;
         boolean expected = true;
-        boolean actual = e.returnOr(input1, input2);
+        boolean actual = e.returnOrTest1(input1, input2);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -111,7 +111,7 @@ public class ExpressionsTest {
         boolean input1 = true;
         boolean input2 = false;
         boolean expected = true;
-        boolean actual = e.returnOr(input1, input2);
+        boolean actual = e.returnOrTest2(input1, input2);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -122,7 +122,7 @@ public class ExpressionsTest {
         boolean input1 = false;
         boolean input2 = true;
         boolean expected = true;
-        boolean actual = e.returnOr(input1, input2);
+        boolean actual = e.returnOrTest3(input1, input2);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -133,7 +133,7 @@ public class ExpressionsTest {
         boolean input1 = false;
         boolean input2 = false;
         boolean expected = false;
-        boolean actual = e.returnOr(input1, input2);
+        boolean actual = e.returnOrTest4(input1, input2);
         Assert.assertEquals(expected, actual);
     }
 
