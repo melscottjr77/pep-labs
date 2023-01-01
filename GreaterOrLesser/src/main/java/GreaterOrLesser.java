@@ -14,21 +14,21 @@ public class GreaterOrLesser {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
         int B = sc.nextInt();
-        if(A < B)
+            if(A < B)
         System.out.println("Lesser");
-        if(A > B)
+            if(A > B)
         System.out.println("Greater");
-        if(A == B)
+            if(A == B)
         System.out.println("Equal");
         }
     public String decide1(int A, int B){
-        return "Equal";
+            return "Equal";
     }
     public String decide2(int A, int B){
-        return "Greater";
+            return "Greater";
     }
     public String decide3(int A, int B){
-        return "Lesser";
+            return "Lesser";
     }
     
 }
