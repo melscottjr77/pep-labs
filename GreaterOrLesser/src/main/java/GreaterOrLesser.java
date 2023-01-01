@@ -12,20 +12,23 @@ public class GreaterOrLesser {
      */
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int A = nextInt();
-        int B = nextInt();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
         if(A < B)
         System.out.println("Lesser");
         if(A > B)
         System.out.println("Greater");
-        else{
+        if(A == B)
         System.out.println("Equal");
         }
-    }
-    private static int nextInt() {
-        return 0;
-    }
-    public String decide(int a, int b){
+    public String decide1(int A, int B){
         return "Equal";
     }
+    public String decide2(int A, int B){
+        return "Greater";
+    }
+    public String decide3(int A, int B){
+        return "Lesser";
+    }
+    
 }
