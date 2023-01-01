@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * 
@@ -28,9 +29,11 @@
  * 
  */
 public class Bird {
+    public static void main(String[] args){}
     /**
      * A variable (in this context, often referred to as a field), which represents the age of the bird.
-     */
+     **/
+    Scanner sc = new Scanner(System.in);
     public int ageMonths;
 
     /**
@@ -47,5 +50,5 @@ public class Bird {
     public String sound(){
         return "";
     }
-
 }
+
