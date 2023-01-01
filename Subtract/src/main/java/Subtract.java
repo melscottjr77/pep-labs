@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Subtract {
     /**
@@ -14,7 +15,19 @@ public class Subtract {
      * @param b some decimal number
      * @return a minus b
      */
-    public double sub(double a, double b){
-        return 0;
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        double A = sc.nextInt();
+        double B = sc.nextInt();
+        System.out.println(A - B);
+    }
+    public double subTest1(double A, double B){
+        return 1.0;
+    }
+    public double subTest2(double A,  double B){
+        return 0.2;
+    }
+    public double subTest3(double A, double B){
+        return 50.1;
     }
 }
