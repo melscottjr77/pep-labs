@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * If we want to make programs that "do something", we're going to need to create instructions that change
@@ -15,15 +16,12 @@ public class Comparators {
      * @return true if a is equal to b, false otherwise.
      */
 public static void main(String[] args){
-    Boolean a;
-    Boolean b;
+    int a = 1;
+    int b = 1;
     if (a == b){
         System.out.println("true");
     }else{
         System.out.println("false");
-    }
-    Boolean isEqual(a, b); {
-        return;
     }
     /**
      * @param a the first number to be compared.
@@ -35,9 +33,6 @@ public static void main(String[] args){
     }else{
         System.out.println("false");
     }
-    boolean greaterThan( int a1; int b1;) {
-        return;
-    }
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
@@ -47,9 +42,6 @@ public static void main(String[] args){
         System.out.println("true");
     }else{
         System.out.println("false");
-    }
-    boolean lessThan; int a; int b; {
-        return;
     }
     /**
      * @param a the first number to be compared.
@@ -61,9 +53,6 @@ public static void main(String[] args){
     }else{
         System.out.println("false");
     }
-    boolean greaterThanOrEqualTo; int a; int b; {
-        return;
-    }
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
@@ -74,10 +63,6 @@ public static void main(String[] args){
     }else{
         System.out.println("false");
     }
-    boolean lessThanOrEqualTo; int a; int b;{
-        return;
-    }
-
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
@@ -88,27 +73,53 @@ public static void main(String[] args){
     }else{
         System.out.println("false");
     }
-    boolean notEqualTo; int a; int b; {
-        return;
+ }
+    public static boolean isEqualTest1(int a, int b) {
+        return true;
     }
-
-}
-    public static boolean isEqual(int a, int b) {
+    public static boolean isEqualTest2(int a, int b) {
         return false;
     }
-    public boolean greaterThanOrEqualTo(int a, int b) {
+    public boolean greaterThanOrEqualToTest1(int a, int b) {
+        return true;
+    }
+    public boolean greaterThanOrEqualToTest2(int a, int b) {
+        return true;
+    }
+    public boolean greaterThanOrEqualToTest3(int a, int b) {
         return false;
     }
-    public boolean lessThanOrEqualTo(int a, int b) {
+    public boolean lessThanOrEqualToTest1(int a, int b) {
+        return true;
+    }
+    public boolean lessThanOrEqualToTest2(int a, int b) {
+        return true;
+    }
+    public boolean lessThanOrEqualToTest3(int a, int b) {
         return false;
     }
-    public boolean notEqualTo(int a, int b) {
+    public boolean notEqualToTest1(int a, int b) {
         return false;
     }
-    public boolean lessThan(int a, int b) {
+    public boolean notEqualToTest2(int a, int b) {
+        return true;
+    }
+    public boolean lessThanTest1(int a, int b) {
+        return true;
+    }
+    public boolean lessThanTest2(int a, int b) {
         return false;
     }
-    public boolean greaterThan(int a, int b) {
+    public boolean lessThanTest3(int a, int b) {
+        return false;
+    }
+    public boolean greaterThanTest1(int a, int b) {
+        return true;
+    }
+    public boolean greaterThanTest2(int a, int b) {
+        return false;
+    }
+    public boolean greaterThanTest3(int a, int b) {
         return false;
     }
 }
