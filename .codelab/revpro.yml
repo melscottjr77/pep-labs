@@ -40,12 +40,12 @@
     :git_user_name: melscottjr77
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 1
+  :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 2
+  :count_tests_passed: 12
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 2
+  :count_tests_passed: 12
   Start:
     :Week: 1
     :Order: 1
@@ -137,10 +137,22 @@
     :Order: 8
     :Type: challenge
     :count_tests: 2
-    :count_tests_passed: 2
+    :count_tests_passed: 12
     :tests:
       addTest1: 1
       addTest2: 1
+      returnAndTest1: 1
+      returnAndTest2: 1
+      returnAndTest3: 1
+      returnAndTest4: 1
+      returnNotTest1: 1
+      returnNotTest2: 1
+      returnOrTest1: 1
+      returnOrTest2: 1
+      returnOrTest3: 1
+      returnOrTest4: 1
+      returnBooleanTest1: 1
+      returnBooleanTest2: 1
   Subtract:
     :Week: 1
     :Order: 9
