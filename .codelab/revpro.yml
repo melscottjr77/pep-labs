@@ -95,6 +95,8 @@
       lessThanOrEqualToTest3: 1
       notEqualToTest1: 1
       notEqualToTest2: 1
+      parrotTestHello: 0
+      parrotTestPolly: 0
   CombineStrings:
     :Week: 1
     :Order: 5
