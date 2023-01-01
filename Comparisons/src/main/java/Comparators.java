@@ -15,14 +15,14 @@ public class Comparators {
      * @return true if a is equal to b, false otherwise.
      */
 public static void main(String[] args){
-    int a = 1;
-    int b = 1;
+    Boolean a;
+    Boolean b;
     if (a == b){
         System.out.println("true");
     }else{
         System.out.println("false");
     }
-    boolean isEqual; int a; int b; {
+    Boolean isEqual(a, b); {
         return;
     }
     /**
@@ -30,14 +30,12 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is greater than b, false otherwise.
      */
-    int a = 1;
-    int b = 2;
     if (a > b){
         System.out.println("true");
     }else{
         System.out.println("false");
     }
-    boolean greaterThan; int a1; int b1; {
+    boolean greaterThan( int a1; int b1;) {
         return;
     }
     /**
@@ -45,8 +43,6 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is less than b, false otherwise.
      */
-    int a = 2;
-    int b = 1;
     if (a < b){
         System.out.println("true");
     }else{
@@ -60,8 +56,6 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is greater than or equal to b, false otherwise.
      */
-    int a = 1;
-    int b = 2;
     if (a >= b){
     System.out.println("true");
     }else{
@@ -75,8 +69,6 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is less than or equal to b, false otherwise.
      */
-    int a = 1;
-    int b = 2;
     if (a <= b){
         System.out.println("true");
     }else{
@@ -91,8 +83,6 @@ public static void main(String[] args){
      * @param b the second number to be compared.
      * @return true if a is not equal to b, false otherwise.
      */
-    int a = 1;
-    int b = 2;
     if (a != b){
         System.out.println("true");
     }else{
@@ -103,7 +93,7 @@ public static void main(String[] args){
     }
 
 }
-    public boolean isEqual(int a, int b) {
+    public static boolean isEqual(int a, int b) {
         return false;
     }
     public boolean greaterThanOrEqualTo(int a, int b) {
