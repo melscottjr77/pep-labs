@@ -17,11 +17,11 @@ public class IfStatement {
      * @return x if bool is true. if bool is false, return y.
      */
 public static void main(String[] args){
-    boolean x = true;
-    boolean y = false;
-    if(x)
+    boolean x;
+    boolean y;
+    if(x = true)
         System.out.println(0);
-    if(y)
+    if(y = false)
         System.out.println(1);
 }
     public int ifExample1(boolean bool, int x, int y){
