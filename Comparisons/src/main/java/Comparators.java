@@ -74,10 +74,10 @@ public static void main(String[] args){
         System.out.println("false");
     }
  }
-    public static boolean isEqualTest1(int a, int b) {
+    public boolean isEqualTest1(int a, int b) {
         return true;
     }
-    public static boolean isEqualTest2(int a, int b) {
+    public boolean isEqualTest2(int a, int b) {
         return false;
     }
     public boolean greaterThanOrEqualToTest1(int a, int b) {

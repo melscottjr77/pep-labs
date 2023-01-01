@@ -18,7 +18,7 @@ public class ComparatorsTest {
         int a = 1;
         int b = 1;
         boolean expected = true;
-        boolean actual = c.isEqualTest1(a, b);
+        boolean actual = c.isEqualTest1( a, b);
         Assert.assertEquals(expected, actual);
     }
 
