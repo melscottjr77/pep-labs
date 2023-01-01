@@ -27,14 +27,15 @@ public static void main(String[] args){
     }
     public boolean returnBooleanTest2(boolean b){
         return false;
-    }
-
+        {
     /**
      * @param b a true/false value.
      * @return if b is true, return false. if b is false, return true.
      * look into boolean operations to do this without using if/else statements.
      */
-    
+    while(b = true){
+        System.out.println(true);}
+    }
     public boolean returnNotTest1(boolean b){
         return true;
     }
