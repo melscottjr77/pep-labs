@@ -33,15 +33,14 @@ public static void main(String[] args){
      * @return if b is true, return false. if b is false, return true.
      * look into boolean operations to do this without using if/else statements.
      */
-    Boolean b = true;{
-        while(b != true && b!= false){
-            System.out.println(false);
-            break;
+    Boolean b;{
+        (b == true){
+            System.out.println(false);}
         }
-    }
     public boolean returnNot(boolean b){
         return true;
     }
+    
     /**
      * @param b1 a true/false value.
      * @param b2 a true/false value.
