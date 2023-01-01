@@ -39,10 +39,7 @@ public static void main(String[] args){
             break;
         }
     }
-    public boolean returnNotTest1(boolean b){
-        return true;
-    }
-    public boolean returnNotTest2(boolean b){
+    public boolean returnNot(boolean b){
         return true;
     }
     /**
