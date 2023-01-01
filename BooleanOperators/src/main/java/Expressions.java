@@ -20,20 +20,26 @@ public static void main(String[] args){
     if(b == true){
         System.out.println(true);
     }else{
-        System.out.println(false);
+        System.out.println(false);}
     }
-}
-    public boolean returnBoolean(boolean b){
+    public boolean returnBooleanTest1(boolean b){
+        return true;
+    }
+    public boolean returnBooleanTest2(boolean b){
         return false;
     }
+
     /**
      * @param b a true/false value.
      * @return if b is true, return false. if b is false, return true.
      * look into boolean operations to do this without using if/else statements.
      */
     
-    public boolean returnNot(boolean b){
-        return false;
+    public boolean returnNotTest1(boolean b){
+        return true;
+    }
+    public boolean returnNotTest2(boolean b){
+        return true;
     }
     /**
      * @param b1 a true/false value.
@@ -55,5 +61,5 @@ public static void main(String[] args){
         return false;
     }
 
-
 }
+
