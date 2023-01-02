@@ -33,7 +33,6 @@ public class Bird {
     /**
      * A variable (in this context, often referred to as a field), which represents the age of the bird.
      **/
-    Scanner sc = new Scanner(System.in);
     public int ageMonths;
 
     /**
