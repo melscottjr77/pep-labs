@@ -49,16 +49,10 @@ public class Player {
      */
     public Player(String playerName, int level){
         this.playerName = playerName;
-        this.level = level; 
-    if(playerName.equals("Frodo")){
-        return "level 1";
-    }else if(playerName.equals("Gollum")){
-        return;
-    }
+        this.level = level;
     }
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
+    
     }
         }
 
