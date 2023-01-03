@@ -1,4 +1,6 @@
 
+import java.util.logging.Level;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -34,7 +36,7 @@ public class PlayerTest {
      */
     @Test
     public void player2ArgConstructorTest1(){
-        Player p = new Player("Gollum", 5);
+        Player p = new Player("Gollum");
         Assert.assertEquals(p.playerName, "Gollum");
         Assert.assertEquals(p.level, 5);
     }
