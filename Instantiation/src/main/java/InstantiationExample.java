@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class InstantiationExample {
     /**
@@ -20,7 +21,9 @@ public class InstantiationExample {
     public Object instantiateANewObject(){
         Object car = new Object();
             return car;
-            }
+        }
     public static void main(String[] args){
+        Scanner sc =  new Scanner(System.in);
+        Object car = sc.nextLine();
     }
 }
