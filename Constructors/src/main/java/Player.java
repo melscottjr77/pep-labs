@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * This class contains two constructors, but currently the constructors have no behavior,
@@ -31,10 +32,8 @@ public class Player {
      * @param playerName the name of the player to be created.
      */
     public Player(String playerName){
-        Player p = new Player("Frodo");
-
+        this.playerName = playerName;
     }
-
     /**
      * Again, the values of this object should be set with the help of the 'this' keyword to avoid confusion between
      * class fields / parameter variables.
@@ -49,7 +48,17 @@ public class Player {
      * @param level the starting level of the player to be created.
      */
     public Player(String playerName, int level){
-
+        this.playerName = playerName;
+        this.level = level; 
+    if(playerName.equals("Frodo")){
+        return "level 1";
+    }else if(playerName.equals("Gollum")){
+        return;
     }
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+    }
+        }
 
-}
