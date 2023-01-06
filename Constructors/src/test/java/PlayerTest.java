@@ -1,6 +1,4 @@
 
-import java.util.logging.Level;
-
 import org.junit.Assert;
 import org.junit.Test;
 
