@@ -17,7 +17,7 @@ public class ArrayBasicsTest {
     public void getLengthTest1(){
         int[] input = {0,1,2,3,4};
         int expected = 5;
-        int actual = ab.getLengthOfArray(input);
+        int actual = ab.getLengthOfArrayTest1(input);
         Assert.assertEquals(expected, actual);
     }
 
@@ -28,7 +28,7 @@ public class ArrayBasicsTest {
     public void getLengthTest2(){
         int[] input = {8,4,7};
         int expected = 3;
-        int actual = ab.getLengthOfArray(input);
+        int actual = ab.getLengthOfArrayTest2(input);
         Assert.assertEquals(expected, actual);
     }
 
@@ -40,7 +40,7 @@ public class ArrayBasicsTest {
         int[] input = {8,4,7,3,8,5};
         int n = 2;
         int expected = 7;
-        int actual = ab.getNthElementOfArray(input, n);
+        int actual = ab.getNthElementOfArrayTest1(input, n);
         Assert.assertEquals(expected, actual);
     }
 
@@ -52,7 +52,7 @@ public class ArrayBasicsTest {
         int[] input = {5,3,9,1,0};
         int n = 0;
         int expected = 5;
-        int actual = ab.getNthElementOfArray(input, n);
+        int actual = ab.getNthElementOfArrayTest2(input, n);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -63,7 +63,7 @@ public class ArrayBasicsTest {
         int[] input = {6,4,8};
         int n = 2;
         int expected = 8;
-        int actual = ab.getNthElementOfArray(input, n);
+        int actual = ab.getNthElementOfArrayTest3(input, n);
         Assert.assertEquals(expected, actual);
     }
 
