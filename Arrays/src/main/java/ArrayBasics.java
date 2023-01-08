@@ -67,7 +67,7 @@ public class ArrayBasics {
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
         int [] arr6 = {9,3,7,3,6};
-        arr6[2] = 5;
+        
         System.out.println(arr6[2]);
         }
     /**
