@@ -30,14 +30,20 @@ public class WhileLoop {
      *
      * @param end a number representing the number to which the sum of all numbers starting from 0 should be calculated
      *            (exclusive - for example, when end is 5, we calculate 0+1+2+3+4)
+     * @return 
      *
      **/
-    public int whileExample(int end){
+    public static void main(String[] args){
         int sum = 0;
         int i = 0;
-
-//        code here
-
-        return sum;
+        while(i<sum){
+            sum = sum + 1;
+            i = i + 1;
+            i++;
+        }
+    }
+    public int whileExample(int input) {
+        return 0;
     }
 }
+
