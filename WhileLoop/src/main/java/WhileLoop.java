@@ -67,10 +67,23 @@ public class WhileLoop {
         sum = sum + 1 ;
         i = i + 1;
         i++;
-    }
+        }
     }
     public int whileExampleTest2(int input) {
         return 10;
+    }
+    public static void whileLoopTest3(){
+        wl = new WhileLoop();
+        int sum = 15;
+        int i = 6;
+         while(i<sum){
+        sum = sum + 1 ;
+        i = i + 1;
+        i++;
+        }
+    }
+    public int whileExampleTest3(int input) {
+        return 15;
     }
 }
 

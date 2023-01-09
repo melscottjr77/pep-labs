@@ -41,7 +41,7 @@ public class WhileLoopTest {
     public void whileLoopTest3(){
         int input = 6;
         int expected = 15;
-        int actual = wl.whileExample(input);
+        int actual = wl.whileExampleTest3(input);
         Assert.assertEquals(expected, actual);
     }
     /**
