@@ -19,7 +19,7 @@ public class WhileLoopTest {
     public void whileLoopTest1(){
         int input = 3;
         int expected = 3;
-        int actual = wl.whileExample(input);
+        int actual = wl.whileExampleTest1(input);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -30,7 +30,7 @@ public class WhileLoopTest {
     public void whileLoopTest2(){
         int input = 5;
         int expected = 10;
-        int actual = wl.whileExample(input);
+        int actual = wl.whileExampleTest2(input);
         Assert.assertEquals(expected, actual);
     }
     /**
@@ -51,7 +51,7 @@ public class WhileLoopTest {
     public void whileLoopTest4(){
         int input = 0;
         int expected = 0;
-        int actual = wl.whileExample(input);
+        int actual = wl.whileExampleTest4(input);
         Assert.assertEquals(expected, actual);
     }
 }

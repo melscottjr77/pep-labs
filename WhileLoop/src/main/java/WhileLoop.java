@@ -1,5 +1,6 @@
 
 public class WhileLoop {
+    private static WhileLoop wl;
     /**
      * A while loop uses a conditional statement (within parentheses) and runs the code {within curly braces}
      * as long as the conditional is true.
@@ -42,8 +43,34 @@ public class WhileLoop {
             i++;
         }
     }
-    public int whileExample(int input) {
+    public int whileExampleTest4(int input) {
         return 0;
+    }
+    public static void whileLoopTest1(){
+        wl = new WhileLoop();
+        int sum = 3;
+        int i = 3;
+         while(i<sum){
+            sum = sum + 1 ;
+            i = i + 1;
+            i++;
+        } 
+    }
+    public int whileExampleTest1(int input) {
+        return 3;
+    }
+    public static void whileLoopTest2(){
+        wl = new WhileLoop();
+        int sum = 10;
+        int i = 5;
+         while(i<sum){
+        sum = sum + 1 ;
+        i = i + 1;
+        i++;
+    }
+    }
+    public int whileExampleTest2(int input) {
+        return 10;
     }
 }
 
