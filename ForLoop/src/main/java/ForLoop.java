@@ -1,6 +1,7 @@
 
 
 public class ForLoop {
+    private static String buildingString;
     /**
      *
      * Let's try writing a for loop at the 'code here' point...
@@ -37,15 +38,19 @@ public class ForLoop {
      *
      *      @param start the value of i where the for loop should start.
      *      @param end the value of i where the for loop should end (provided that the for loop is incremented with i++)
-     * @return 
+     *      @return 
      *      @return the sum of all numbers between start and end, with start inclusive and end exclusive.
      */
     public static void main(String[] args){
-    public String returnNumbers(int i; start; end;){
-        String buildingString = "";
+        for(int i = 0; i < 8; i++)
+         buildingString = buildingString + i + " ";
+        {
+        char[] i;
+        System.out.print(i);
+         }
         
-                return buildingString;
     }
-}
-   
+    public String returnNumbers(int i, int j) {
+        return null;
+    }
 }
