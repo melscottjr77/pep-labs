@@ -16,6 +16,14 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
+    public static void main(String[] args) throws Exception{
+       try{
+         int a = 10, b = 0;
+         System.out.println(a/b);
+       } catch (Exception exception){
+         throw new Exception();
+       }     
+    }
     public void mustThrow(){
     }
 }
