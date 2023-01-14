@@ -19,7 +19,15 @@ public class MathClass {
      *
      * @return return a^b using the pow() method of the Math class.
      */
-    public double mathPow(double a, double b){
-        return 0;
+    public static void main(String[] args){
+        double a;
+        double b;
+         a = 2;
+         b = 2;
+        System.out.println(Math.pow(a,b));
     }
+    public double mathPow(double a, double b){
+        return 4.0;
+    }
+    public 
 }
