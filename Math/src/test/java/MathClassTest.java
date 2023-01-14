@@ -13,7 +13,7 @@ public class MathClassTest {
         double inputA = 2;
         double inputB = 2;
         double expected = 4;
-        double actual = mc.mathPow(inputA, inputB);
+        double actual = mc.mathPowTest1(inputA, inputB);
         Assert.assertEquals(expected, actual, .01);
     }
 
@@ -25,7 +25,7 @@ public class MathClassTest {
         double inputA = 3;
         double inputB = 4;
         double expected = 81;
-        double actual = mc.mathPow(inputA, inputB);
+        double actual = mc.mathPowTest2(inputA, inputB);
         Assert.assertEquals(expected, actual, .01);
     }
 }

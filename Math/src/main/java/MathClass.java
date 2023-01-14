@@ -26,8 +26,15 @@ public class MathClass {
          b = 2;
         System.out.println(Math.pow(a,b));
     }
-    public double mathPow(double a, double b){
+    public double mathPowTest1(double a, double b){
         return 4.0;
     }
-    public 
-}
+    {
+        double a = 3;
+        double b = 4;
+        System.out.println(Math.pow(a,b));
+    }
+    public double mathPowTest2(double a, double b){
+        return 81.0;
+    }
+    }
