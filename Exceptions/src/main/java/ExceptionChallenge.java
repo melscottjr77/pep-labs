@@ -1,3 +1,5 @@
+import java.io.EOFException;
+
 public class ExceptionChallenge {
     /**
      * An exception is an unexpected event that occurs during our program.
@@ -15,15 +17,16 @@ public class ExceptionChallenge {
      * for a thrown exception!
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
+     * @throws Exception
      */
-    public static void main(String[] args) throws Exception{
-       try{
-         int a = 10, b = 0;
-         System.out.println(a/b);
-       } catch (Exception exception){
-         throw new Exception();
+    public static void main(String[] args) throws Exception {
+      try{
+      
+      }
+        catch (Exception ec){
+        throw new ClassCastException();
+       }
        }     
-    }
-    public void mustThrow(){
+        public void mustThrow(){
     }
 }
