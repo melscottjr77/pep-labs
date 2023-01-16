@@ -9,15 +9,9 @@ public class CustomExceptionThrower {
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
     public static void main(String[] args) throws Exception{
-        try{
-          int a = 10, b = 0;
-          System.out.println(a/b);
-        } catch (Exception exception){
-          throw new Exception("Something Went Worng!");
-        }     
      }
-    public void throwCustomException(){
-
+    public void throwCustomException() throws Exception{
+     
     }
 
 }
