@@ -19,14 +19,13 @@ public class ExceptionChallenge {
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      * @throws Exception
      */
-    public static void main(String[] args) throws Exception {
-      try{
-      
-      }
-        catch (Exception ec){
-        throw new ClassCastException();
-       }
-       }     
-        public void mustThrow(){
+    public static void main(String[] args) throws Exception { 
     }
+    public void mustThrow() throws Exception {
+      try {
+        int x = 1 / 0;
+    } catch (Exception exception) {
+        throw new Exception("Something went wrong!");
+    }
+}  
 }
