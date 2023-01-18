@@ -52,8 +52,7 @@ public class ListExercise {
     public int getSize(List<Integer> list){
         return 0;
     }
-
-    /**
+       /**
      * Add an item to a list.
      * When we add a value to a list, it gets appended to the end.
      *
