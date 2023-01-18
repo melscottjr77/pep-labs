@@ -33,14 +33,14 @@ public class ListExercise {
     }
     public List<Integer> createList(){
         List<Integer> list = new ArrayList<>();
-            list.add(10);
-            list.add(30);
-            list.add(50);
-            list.add(60);
-            list.add(80);
-            list.add(90);
-        for(Integer num: list)
-        System.out.println(num);
+        list.add(10);
+        list.add(30);
+        list.add(50);
+        list.add(60);
+        list.add(80);
+        list.add(90);
+    for(Integer num: list)
+    System.out.println(num);
         return list;
         }
      /**
