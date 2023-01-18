@@ -30,6 +30,8 @@ public class ListExercise {
      * @return a List<Integer> object.
      */
     public static void main(String[] args){
+    }
+    public List<Integer> createList(){
         List<Integer> list = new ArrayList<>();
             list.add(10);
             list.add(30);
@@ -39,11 +41,8 @@ public class ListExercise {
             list.add(90);
         for(Integer num: list)
         System.out.println(num);
+        return list;
         }
-    public List<Integer> createList(){
-        return null;
-    }
-    
      /**
      * Get the size of a list.
      *
