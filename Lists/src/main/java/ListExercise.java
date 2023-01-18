@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.*;
 /**
  * Lists are ordered collections. This means that we could access elements at a certain position of a list,
  * and lists are also allowed to contain duplicate values.
@@ -29,11 +29,22 @@ public class ListExercise {
      *
      * @return a List<Integer> object.
      */
+    public static void main(String[] args){
+        ArrayList<Integer> myList = new ArrayList<Integer>();
+            myList.add(10);
+            myList.add(30);
+            myList.add(50);
+            myList.add(60);
+            myList.add(80);
+            myList.add(90);
+        for(Integer nu: myList){
+        System.out.println(myList);
+        }
+    }
     public List<Integer> createList(){
         return null;
     }
-
-    /**
+     /**
      * Get the size of a list.
      *
      * @param list a List<Integer> object.
