@@ -30,20 +30,20 @@ public class ListExercise {
      * @return a List<Integer> object.
      */
     public static void main(String[] args){
-        ArrayList<Integer> myList = new ArrayList<Integer>();
-            myList.add(10);
-            myList.add(30);
-            myList.add(50);
-            myList.add(60);
-            myList.add(80);
-            myList.add(90);
-        for(Integer nu: myList){
-        System.out.println(myList);
+        List<Integer> list = new ArrayList<>();
+            list.add(10);
+            list.add(30);
+            list.add(50);
+            list.add(60);
+            list.add(80);
+            list.add(90);
+        for(Integer num: list)
+        System.out.println(num);
         }
-    }
     public List<Integer> createList(){
         return null;
     }
+    
      /**
      * Get the size of a list.
      *
