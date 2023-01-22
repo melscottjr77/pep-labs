@@ -20,17 +20,10 @@ public class SetExercise {
      * Some common implementations of Set are HashSet and TreeSet. Look into how to instantiate them.
      * @return a new Set<Integer> object.
      */
-    public static void main(String[] args){
-        Set<Integer> set = new HashSet<>();
-        set.add(1);
-        set.add(2);
-        set.add(3);
-    }
+    
     public Set<Integer> createSet(){
-        return new HashSet<Integer>();
-        
+        return new HashSet<Integer>();   
     }
-
     /**
      * Return the size of a set.
      * @param set The set that we will be manipulating.
