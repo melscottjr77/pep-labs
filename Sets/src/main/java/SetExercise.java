@@ -49,6 +49,7 @@ public class SetExercise {
     public void addUniqueItem(Set<Integer> set, int item){
         Set<Integer> se = new HashSet<Integer>();
         se.add(1);
+        this.item = item;
     }
 
     /**
