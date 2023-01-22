@@ -1,5 +1,6 @@
 
 import java.util.Set;
+import java.util.*;
 
 /**
  * Sets are unordered collections of elements. Sets do not allow duplicates.
@@ -19,7 +20,12 @@ public class SetExercise {
      * Some common implementations of Set are HashSet and TreeSet. Look into how to instantiate them.
      * @return a new Set<Integer> object.
      */
-    public Set<Integer> createSet(){
+    public static void main(String[] args){
+        Integer arr[] = {5, 6, 7, 8, 1, 2, 4, 3};
+        Set<Integer> set = new HashSet<>(Arrays.asList(arr));
+        System.out.println(set);
+    }
+    public Set<Integer> createSet() {
         return null;
     }
 
@@ -51,4 +57,5 @@ public class SetExercise {
     public void removeItem(Set<Integer> set, int item){
 
     }
+    
 }
