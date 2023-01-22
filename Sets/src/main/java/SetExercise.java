@@ -1,6 +1,5 @@
 
 import java.util.Set;
-import java.sql.Array;
 import java.util.*;
 
 /**
@@ -22,11 +21,14 @@ public class SetExercise {
      * @return a new Set<Integer> object.
      */
     public static void main(String[] args){
-        Integer arr[] = {5, 6, 7, 8, 1, 2, 4, 3};
-        Set<Integer> set = new HashSet<>(Arrays.asList(arr));
+        Set<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(2);
+        set.add(3);
     }
     public Set<Integer> createSet(){
-        return set;
+        return new HashSet<Integer>();
+        
     }
 
     /**
