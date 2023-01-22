@@ -29,7 +29,7 @@ public class SetExerciseTest {
         if(set == null){
             Assert.fail();
         }else{
-            Assert.assertEquals(se.getSize(set), 0);
+            Assert.assertEquals(se.getSizeTest(set), 0);
         }
     }
 
@@ -43,7 +43,7 @@ public class SetExerciseTest {
             Assert.fail();
         }else{
             se.addUniqueItem(set, 1);
-            Assert.assertEquals(se.getSize(set), 1);
+            Assert.assertEquals(se.getSizeTest2(set), 1);
         }
     }
 

@@ -1,5 +1,4 @@
 
-import java.util.Set;
 import java.util.*;
 
 /**
@@ -11,6 +10,8 @@ import java.util.*;
  * https://www.w3schools.com/java/java_hashset.asp
  */
 public class SetExercise {
+    public int item;
+
     /**
      * Instantiate and return a Set of Integers.
      *
@@ -20,7 +21,6 @@ public class SetExercise {
      * Some common implementations of Set are HashSet and TreeSet. Look into how to instantiate them.
      * @return a new Set<Integer> object.
      */
-    
     public Set<Integer> createSet(){
         return new HashSet<Integer>();   
     }
@@ -29,18 +29,26 @@ public class SetExercise {
      * @param set The set that we will be manipulating.
      * @return the size of set. (number of values)
      */
-    public int getSize(Set<Integer> set){
-        return 0;
+    public int getSizeTest(Set<Integer> set){
+        Set<Integer> se = new HashSet<Integer>();
+             return 0;
     }
-
+   
+    public int getSizeTest2(Set<Integer> set){
+        Set<Integer> se = new HashSet<Integer>();
+            se.add(1);
+             return 1;
+    }
     /**
      * Add a new, unique item to a set. Sets can only store unique items (no duplicates).
      * @param set The set that we will be manipulating.
      * @param item The item which we will be adding to set.
+     * @return 
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addUniqueItem(Set<Integer> set, int item){
-
+        Set<Integer> se = new HashSet<Integer>();
+        se.add(1);
     }
 
     /**
@@ -50,7 +58,6 @@ public class SetExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeItem(Set<Integer> set, int item){
-
     }
     
 }
