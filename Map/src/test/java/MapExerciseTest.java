@@ -43,7 +43,7 @@ public class MapExerciseTest {
         if(map == null){
             Assert.fail();
         }else{
-            me.addKeyValuePairTest2(map, 1, "banana");
+            me.addKeyValuePair(map, 1, "banana");
             Assert.assertEquals(me.getSizeTest2(map), 1);
         }
     }
@@ -57,7 +57,7 @@ public class MapExerciseTest {
         if(map == null){
             Assert.fail();
         }else{
-            me.addKeyValuePairTest1(map, 1, "banana");
+            me.addKeyValuePair(map, 1, "banana");
             Assert.assertEquals(me.getValueFromKey(map, 1), "banana");
         }
     }
@@ -71,8 +71,8 @@ public class MapExerciseTest {
         if(map == null){
             Assert.fail();
         }else{
-            me.addKeyValuePairTest1(map, 1, "banana");
-            me.addKeyValuePairTest2(map, 2, "pear");
+            me.addKeyValuePair(map, 1, "banana");
+            me.addKeyValuePair(map, 2, "pear");
             Assert.assertEquals(me.getValueFromKey(map, 1), "banana");
             Assert.assertEquals(me.getValueFromKey(map, 2), "pear");
         }
@@ -87,8 +87,8 @@ public class MapExerciseTest {
         if(map == null){
             Assert.fail();
         }else{
-            me.addKeyValuePairTest1(map, 1, "banana");
-            me.addKeyValuePairTest2(map, 2, "pear");
+            me.addKeyValuePair(map, 1, "banana");
+            me.addKeyValuePair(map, 2, "pear");
             me.removeKeyValuePair(map, 2);
             Assert.assertFalse(map.containsKey(2));
         }
@@ -104,8 +104,8 @@ public class MapExerciseTest {
         if(map == null){
             Assert.fail();
         }else{
-            me.addKeyValuePairTest1(map, 1, "banana");
-            me.addKeyValuePairTest2(map, 2, "pear");
+            me.addKeyValuePair(map, 1, "banana");
+            me.addKeyValuePair(map, 2, "pear");
             me.overwriteValue(map, 2, "apple");
             Assert.assertTrue(map.containsKey(2));
             Assert.assertEquals(me.getValueFromKey(map, 2), "apple");
