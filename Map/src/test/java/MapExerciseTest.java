@@ -30,7 +30,7 @@ public class MapExerciseTest {
         if(map == null){
             Assert.fail();
         }else{
-            Assert.assertEquals(me.getSize(map), 0);
+            Assert.assertEquals(me.getSizeTest1(map), 0);
         }
     }
 
@@ -44,7 +44,7 @@ public class MapExerciseTest {
             Assert.fail();
         }else{
             me.addKeyValuePair(map, 1, "banana");
-            Assert.assertEquals(me.getSize(map), 1);
+            Assert.assertEquals(me.getSizeTest2(map), 1);
         }
     }
 
