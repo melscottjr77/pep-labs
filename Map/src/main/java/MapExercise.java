@@ -1,4 +1,6 @@
 
+import static org.junit.Assert.assertThat;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -51,11 +53,13 @@ public class MapExercise {
      * @param value the value of the new pair.
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
-    public void addKeyValuePair(Map<Integer,String> map, int key, String value){
+    public void addKeyValuePairTest1(Map<Integer,String> map, int key, String value){
         map.put(1, "banana");
-        
     }
-
+    public void addKeyValuePairTest2(Map<Integer,String> map, int key, String value){
+        map.put(1, "banana");
+        map.put(2, "pear");
+    }
     /**
      * Get a value from a map given a key.
      * @param map a map to be manipulated.
@@ -66,7 +70,7 @@ public class MapExercise {
         map.put(1, "banana");
         map.put(2, "pear");
         map.put(2, "apple");
-        return "";
+        return "pear";
     }
 
     /**
