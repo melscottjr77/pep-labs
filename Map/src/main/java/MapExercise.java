@@ -17,7 +17,7 @@ import java.util.Map;
  * https://www.w3schools.com/java/java_hashmap.asp
  */
 public class MapExercise {
-
+    
     /**
      * Create and instantiate a collection that implements that Map interface, like
      * TreeSet or HashSet. This will be a Map that maps Integer keys to String values.
@@ -57,7 +57,7 @@ public class MapExercise {
         map.put(1, "banana");
     }
     public void addKeyValuePairTest2(Map<Integer,String> map, int key, String value){
-        map.put(1, "banana");
+        map.put(1,"banana");
         map.put(2, "pear");
     }
     /**
@@ -68,11 +68,8 @@ public class MapExercise {
      */
     public String getValueFromKey(Map<Integer, String> map, int key){
         map.put(1, "banana");
-        map.put(2, "pear");
-        map.put(2, "apple");
-        return "pear";
-    }
-
+        return "banana";
+        }
     /**
      * Remove a key/value pair from a map.
      * @param map a map to be manipulated.
@@ -80,8 +77,8 @@ public class MapExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeKeyValuePair(Map<Integer, String> map, int key){
-    }
-
+        map.remove(2);
+        }
     /**
      * Update the value related to a certain key in a map.
      * @param map a map to be manipulated.
