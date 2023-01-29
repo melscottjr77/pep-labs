@@ -29,9 +29,9 @@ public class QueueExercise {
      * Stack behavior.
      */
     public Queue<String> createQueue(){
-        return null;
+        String queue;
+        return queue;
     }
-
     /**
      * Return the ssize of a queue.
      * @param queue a Queue<String> object.
