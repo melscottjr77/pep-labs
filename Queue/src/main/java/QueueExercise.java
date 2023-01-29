@@ -49,7 +49,7 @@ public class QueueExercise {
      * @param item a String that should be added to Queue.
      */
     public void addToEndOfQueue(Queue<String> queue, String item){
-
+        queue.add("Element 2  (Sally)");
     }
 
     /**
