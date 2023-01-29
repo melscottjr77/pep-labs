@@ -3,7 +3,7 @@
  */
 
 import java.util.Queue;
-
+import java.util.*;
 /**
  * Queues are FIFO - first in, first out, like a checkout line. They are used in algorithms where it is needed to keep
  * track of the order that the elements were inserted in. For instance, tech support tickets may be
@@ -29,7 +29,7 @@ public class QueueExercise {
      * Stack behavior.
      */
     public Queue<String> createQueue(){
-        String queue;
+        Queue<String> queue = new LinkedList<String>();
         return queue;
     }
     /**
@@ -38,6 +38,7 @@ public class QueueExercise {
      * @return the length of queue.
      */
     public int getSize(Queue<String> queue){
+        queue.add("Element 1 (Jim)");
         return 0;
     }
 
