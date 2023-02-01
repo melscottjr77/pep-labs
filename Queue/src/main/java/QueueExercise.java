@@ -21,6 +21,7 @@ import java.util.*;
  * to handle multiple 'priorities' of items. You can read about PriorityQueue here:
  * https://www.geeksforgeeks.org/priority-queue-class-in-java/
  */
+
 public class QueueExercise {
     /**
      * Instantiate and return some type of Queue.
@@ -38,7 +39,7 @@ public class QueueExercise {
      * @return the length of queue.
      */
     public int getSize(Queue<String> queue){
-        queue.add("Element 1 (Jim)");
+        queue.add("Jim");
         return 0;
     }
 
@@ -49,9 +50,10 @@ public class QueueExercise {
      * @param item a String that should be added to Queue.
      */
     public void addToEndOfQueue(Queue<String> queue, String item){
-        queue.add("Element 2  (Sally)");
-    }
-
+        queue.add("Sally");
+        queue.add("Kate");
+        int size = queue.size();
+        }
     /**
      * Remove an item from a queue, and return the removed item.
      * (The method used to remove items from queues also returns the item.)
