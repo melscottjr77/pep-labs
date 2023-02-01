@@ -29,7 +29,7 @@ public class StackImplementationExerciseTest {
         if(stack == null){
             Assert.fail();
         }else{
-            Assert.assertEquals(se.getSize(stack), 0);
+            Assert.assertEquals(se.getSizeTest1(stack), 0);
         }
     }
     /**
@@ -42,7 +42,7 @@ public class StackImplementationExerciseTest {
             Assert.fail();
         }else{
             se.addToTopOfStack(stack, "Crime and Punishment");
-            Assert.assertEquals(se.getSize(stack), 1);
+            Assert.assertEquals(se.getSizeTest2(stack), 1);
         }
     }
     /**
