@@ -1,5 +1,7 @@
+import javafx.util.Pair;
 
 public class CastingPrimitive {
+    
     /**
      * Casting is the conversion of one type to another. It exists for both primitive and object types.
      * Casting a double, which is a number with decimals, to an int, which is a number without decimals, will eliminate
@@ -13,9 +15,12 @@ public class CastingPrimitive {
      *
      * Now cast d to an int and return it.
      * @param d a decimal number.
-     * @return the int form of d.
+     * @return
      */
-    public int castToInt(double d){
-       return d;
+    public int castToInt(double d){ 
+        int a = (int) 4.3;
+        int b = (int) 9.999;
+        return (b, a);
     }
 }
+
