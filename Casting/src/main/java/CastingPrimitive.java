@@ -1,4 +1,4 @@
-import javafx.util.Pair;
+
 
 public class CastingPrimitive {
     
@@ -19,8 +19,8 @@ public class CastingPrimitive {
      */
     public int castToInt(double d){ 
         int a = (int) 4.3;
-        int b = (int) 9.999;
-        return (b, a);
+        int c = (int) 9.999;
+        return (a, b);
     }
 }
 
