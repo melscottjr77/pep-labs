@@ -61,17 +61,24 @@ public class CreateATable {
      *     |'Let it be'        |'Beatles'              |
      *     |'Hotel California' |'Eagles'               |
      *     |'Kashmir'          |'Led Zeppelin'         |
+     *
      */
-    public void problem1(){
+        public void problem1(){
         String sql = FileUtil.parseSQLFile("problem1.sql");
-
         try {
             Connection connection = ConnectionUtil.getConnection();
             Statement s = connection.createStatement();
             s.executeUpdate(sql);
         } catch (SQLException e) {
             System.out.println("problem1: " + e.getMessage() + '\n');
-        }
+        } 
     }
-
+    public static void main(String[] args){
+        Create Table table_name
+        (
+            Title  varchar(100),
+            Artist varchar(100)  
+        );
+    }
 }
+        
