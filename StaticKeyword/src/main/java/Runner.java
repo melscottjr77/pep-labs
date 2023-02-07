@@ -1,3 +1,4 @@
+import java.lang.reflect.InaccessibleObjectException;
 
 public class Runner {
     /** 
@@ -20,9 +21,12 @@ public class Runner {
      * you are making a mistake. More on static here: https://www.baeldung.com/java-static
      *
      * @param in the String value you should change global_var to in.
+     * 
      */
+
     public void changeClassVar(String in){
-        in = "xyz";
+     String global_var = "abc";
+     in = "xyz";
     }
 }
 
