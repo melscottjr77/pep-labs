@@ -49,8 +49,8 @@ import java.sql.Statement;
  *      - https://www.w3schools.com/sql/sql_create_table.asp
  *
  */
-public class CreateATable {
 
+public class CreateATable{
     /**
      * Assignment: Create a new table in the problem1.sql file, called "song" with 2 columns "title" and "artist".
      * both columns should have the datatype varchar(100), which represents a String of up to 100 characters.
@@ -63,22 +63,17 @@ public class CreateATable {
      *     |'Kashmir'          |'Led Zeppelin'         |
      *
      */
-    public static void main(String[] args){
-        Create Table song
-        (
-            title  varchar(100),
-            artist varchar(100)
-        );
         public void problem1(){
         String sql = FileUtil.parseSQLFile("problem1.sql");
         try {
             Connection connection = ConnectionUtil.getConnection();
             Statement s = connection.createStatement();
             s.executeUpdate(sql);
-        } catch (SQLException e) {
+            }
+            catch (SQLException e) {
             System.out.println("problem1: " + e.getMessage() + '\n');
+            }
         } 
     }
-}
     
-        
+
