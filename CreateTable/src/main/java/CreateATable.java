@@ -63,6 +63,12 @@ public class CreateATable {
      *     |'Kashmir'          |'Led Zeppelin'         |
      *
      */
+    public static void main(String[] args){
+        Create Table song
+        (
+            title  varchar(100),
+            artist varchar(100)
+        );
         public void problem1(){
         String sql = FileUtil.parseSQLFile("problem1.sql");
         try {
@@ -73,12 +79,6 @@ public class CreateATable {
             System.out.println("problem1: " + e.getMessage() + '\n');
         } 
     }
-    public static void main(String[] args){
-        Create Table table_name
-        (
-            Title  varchar(100),
-            Artist varchar(100)  
-        );
-    }
 }
+    
         
