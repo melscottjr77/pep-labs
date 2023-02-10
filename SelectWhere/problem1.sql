@@ -1,3 +1,3 @@
-SELECT lastname
+SELECT *
 FROM employee 
-WHERE lastname ='Smith';
+WHERE last_name = 'Smith';
