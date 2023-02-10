@@ -25,7 +25,7 @@ import java.util.List;
  * Let's say we wanted to query all the records from the table that have the first name "Steve".
  *
  * The statement that will be utilized is as follows:
- * SELECT * FROM employee WHERE first_name = 'Steve';
+ * 
  *
  * In the above statement, the "WHERE" keyword allows us to filter the records based on the condition defined after the keyword.
  * The condition that we specified is that the first_name column must have the value "Steve".
@@ -62,8 +62,6 @@ public class FilterRecords {
      *   |4     |'Brandon'       |'Smith'        |120000.00 |
      *   |5     |'Adam'          |'Jones'        |55050.50  |
      */
-
-
     public List<User> problem1(){
         /**
          *
