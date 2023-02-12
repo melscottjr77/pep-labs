@@ -60,8 +60,8 @@ public class FilteringLogicActivity {
 
     public Set<Employee> problem1() {
         /**
-         * Problem 1: Write a statement that will query the above table for all employees named 'Steve' who earn
-         * more than $75,000.
+         * Problem 1: Write a will query the above table for all employees named 'Steve' who earn
+         * more than $75,000.te a statement that 
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
@@ -91,11 +91,11 @@ public class FilteringLogicActivity {
         String sql = FileUtil.parseSQLFile("problem2.sql");
 
 
-        //The following code will execute your statement on the database
+        //The following code will             Connection connection = ConnectionUtil.getConnection();
+            Statement s = connection.createStatement();
+            execute your statement on the database
         Set<Employee> resultsSet = new HashSet<>();
         try {
-            Connection connection = ConnectionUtil.getConnection();
-            Statement s = connection.createStatement();
             ResultSet rs =s.executeQuery(sql);
 
             while(rs.next()) {

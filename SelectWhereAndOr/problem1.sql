@@ -1,2 +1,3 @@
-SELECT * FROM employee
-WHERE 'Steve' > 75000;
+ SELECTfirst_name="Steve"
+FROM employee
+WHERE salary > 75000;
