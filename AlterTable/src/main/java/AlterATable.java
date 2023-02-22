@@ -28,7 +28,7 @@ import java.sql.Statement;
  *
  * The syntax for the ALTER keyword is different depending on what we want to achieve:
  *      - Adding a column:
- *          - ALTER TABLE table_name ADD column_name data_type [constraint];
+ *          -  ALTER TABLE table_name ADD column_name data_type [constraint];
  *      - Removing a column:
  *          - ALTER TABLE table_name DROP column_name;
  *
