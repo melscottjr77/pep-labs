@@ -1,2 +1,2 @@
 ALTER TABLE site_user
-ADD lastname varchar(100) [constraint];
+ADD lastname varchar(100)[];
