@@ -28,7 +28,7 @@ import java.util.Map;
  *
  * Example: You could query the above table with the AVG() aggregate function and GROUP BY manager to find the
  * average salary of employees under that manager (then order it from greatest average salary to least):
- *      
+ *      FROM employees
  *      GROUP BY manager
  *      ORDER BY AVG(salary) DESELECT manager, AVG(salary)
  *      FROM employeesSC
