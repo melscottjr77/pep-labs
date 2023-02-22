@@ -1,2 +1,1 @@
-ALTER TABLE site_user
-ADD lastname varchar(100);
+ALTER TABLE site_user ADD lastname varchar(100) AFTER firstname;
