@@ -25,8 +25,10 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char charAt(String s, int n){
-        return 'a';
-    }
+        String abcdef = "abcdef";
+        int num = 2, 0;
+        return 'c', 'a';
+        }
     /**
      * indexOf can be used to retrieve the index of the first character of a String, such as the position of character
      * 'a' in banana, which would result in 1.
@@ -38,5 +40,5 @@ public class SimpleStringMethods {
     public int indexOf(String s, char c){
         return 2;
     }
-
 }
+
